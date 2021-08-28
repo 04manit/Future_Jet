@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/ai_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="stylesheet" href="assets/css/aos.css"> -->
+
+    <link rel="stylesheet" href="assets/wowjs/animate.css">
+</head>
+
+<body class="ai-body">
+    <!-- Header section -->
+    <header style="z-index: 9999;" class="header">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-down" class="col-md-3 col-3 col-sm-4 ">
+                    <div class="menu">
+                        <img class="logo" src="assets/img/logo.png" alt="">
+                        <span><img class="menu-img" src="assets/img/menu.png"/></span>
+                    </div>
+                </div>
+
+                <div class="col-md-3  d-none d-md-block"></div>
+
+
+                <div class="navigation col-md-6 col-9 co-sm-9">
+                    <div data-aos="fade-right">
+                        <a href="index.html"><button><img src="https://img.icons8.com/material-rounded/24/000000/home.png"/></button></a>
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <a href="https://www.facebook.com/" target="_blank"><button><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png"/></button></a>
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <a href="https://twitter.com/" target="_blank"><button><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"/></button></a>
+                    </div>
+
+                    <div data-aos="fade-left">
+                        <a href="contact.html"><button id="contact_btn"><img src="https://img.icons8.com/material-rounded/24/000000/mail.png"/></button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fixed-header">
+            <p class="close-fixed-header"><span>&#128473;</span></p>
+            
+            <div class="container-fluid">
+                <div class="swiper-container menu_scroll">
+                    <div class="swiper-wrapper">
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_1.png" alt="">
+                            <a class="text_menu_scroll" href="AI_Past_Present_Future.html">Journey&nbsp;&nbsp;&nbsp;of&nbsp;&nbsp;&nbsp;Technology</a>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_2.png" alt="">
+                            <a class="text_menu_scroll" href="AI_details.html">Artificial&nbsp;&nbsp;&nbsp;Intelligence</a><br>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_3.png" alt="">
+                            <a class="text_menu_scroll" href="education.html">Future&nbsp;&nbsp;&nbsp;in&nbsp;&nbsp;&nbsp;Education</a>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_4.png" alt="">
+                            <a class="text_menu_scroll" href="blockchain.html">Blockchain&nbsp;&nbsp;&nbsp;Technology</a>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_5.png" alt="">
+                            <a class="text_menu_scroll" href="nanotech.html">Nano&nbsp;&nbsp;&nbsp;Technology</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <!-- <div class="menu_topics">
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+    
+
+    <div class="fixed-button">
+        <!-- Default dropend button -->
+        <div class="btn-group dropend">
+            <button type="button" class="btn btn-secondary dropdown-toggle table_content" data-bs-toggle="dropdown" aria-expanded="false">
+            Table of Content
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#section1" class="dropdown-item">What is AI</a></li>
+                <li><a href="#section2" class="dropdown-item">Why AI</a></li>
+                <li><a href="#section3" class="dropdown-item">AI is everywhere</a></li>
+                <li><a href="#section4" class="dropdown-item">Types of AI</a></li>
+                <li><a href="#section5" class="dropdown-item">Goals of AI</a></li>
+                <li><a href="#section6" class="dropdown-item">Advantages of AI</a></li>
+                <li><a href="#section7" class="dropdown-item">Disadvantages of AI</a></li>
+                <li><a href="#section8" class="dropdown-item">History of AI</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="fixed-button-2">
+        <!-- Default dropend button -->
+        <div class="btn-group dropend">
+            <a href="https://quizizz.com/join/quiz/6128e81a91e999001d4fda0f/start?studentShare=true" target="_blank" class="btn btn-secondary"><span>Quiz</span></a>
+        </div>
+    </div>
+
+    
+    
+    <!-- Header -->
+    <header>
+        <div style="background: url(assets/img/ai_bg_top.gif);" class="container-fluid ai-start-gif">
+            <img class="animate__animated animate__fadeInLeft" src="assets/img/ai designer text.png" alt="">
+        </div>
+
+        <div class="header-image-container">
+            <img class="circles-img" src="assets/img/circles.png" alt="">
+            <img class="robo_ai_start" src="assets/img/robo.png" alt="">
+        </div>
+
+    </header>
+
+
+    <!-- What is AI -->
+    <section id="section1" class="section1">
+        <div class="container-fluid">
+            <!-- Heading -->
+            <div class="section1-header row">
+                <h1 class="text-white text-center">What is Artificial Intelligence</h1>
+            </div>
+
+            <div class="row section1-content-row">
+                <div class="col-md-3">
+                    <img src="assets/img/what is ai img.png" alt="" class="img-fluid m-0">
+                </div>
+
+                <div class="section1-content-1 col-md-9">
+                    <p>In today's world, technology is growing very fast, and we are getting in touch with different new
+                        technologies day by day.<br><br>Here, one of the booming technologies of computer science is
+                        Artificial Intelligence which is ready to create a new revolution in the world by making
+                        intelligent machines. </p>
+                </div>
+            </div>
+
+            <div class="row section1-content2-row">
+                <p>The Artificial Intelligence is now all around us. It is currently working with a variety of
+                    subfields, ranging from general to specific, such as self-driving cars, playing chess, proving
+                    theorems, playing music, Painting, etc. Artificial Intelligence is composed of two words Artificial
+                    and Intelligence, where Artificial defines "man-made," and intelligence defines "thinking power",
+                    hence AI means "a man-made thinking power."</p>
+            </div>
+
+
+            <!-- Wave + Video -->
+            <div class="row section1-content3-row">
+                <button>
+                    <a href="https://youtu.be/dtlgM1ghQkY" target="_blank">
+                        <img src="assets/img/play button.png" alt="">
+                    </a>
+                </button>
+
+                
+                <img src="assets/img/what is ai video img.PNG" alt="">
+
+                <div class="video-text">
+                    <p class="video-text-content">What is Artificial Intelligence with full Informaition</p>
+                    <p class="video-text-soure_video">Source :- Quick Support (Youtube)</p>
+                </div>
+            </div>
+
+            
+
+            <!-- So, we can define -->
+            <div class="row section1-content4-row">
+                <p>So, we can define AI as:</p>
+            </div>
+
+            <!-- so we can define box -->
+            <div class="row section1-content5-row">
+                <p>"It is a branch of computer science by which we can create intelligent machines which can behave like
+                    a human, think like humans, and able to make decisions." </p>
+            </div>
+
+            <div class="row section1-content6-row">
+                <p>Artificial Intelligence exists when a machine can have human based skills such as learning,
+                    reasoning, and solving problems.<br><br>With Artificial Intelligence you do not need to pre
+                    programme a machine to do some work, despite that you can create a machine with programmed
+                    algorithms which can work with own intelligence, and that is the awesomeness of AI.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why AI -->
+    <section id="section2" class="section2">
+        <div class="container-fluid">
+            <!-- Heading + gif -->
+            <div class="row section-2-top">
+                <div class="col-md-10">
+                    <h1>Why Artificial Intelligence</h1>
+                    <p>Before Learning about Artificial Intelligence, we should know that what is the importance of AI
+                        and why should we learn it. Following are some main reasons to learn about AI :</p>
+                </div>
+
+                <div class="col-md-2 text-center p-2">
+                    <img src="assets/img/why ai.gif" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- Pointers + image (1) -->
+            <div class="row section2-content2 padding-less">
+                <div class="col-md-3">
+                    <img src="assets/img/why ai img.png" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-9">
+                    <p class="section2-content2-p">
+                        <ul>
+                            <li>With the help of AI, you can create such software or devices which can solve real-world
+                                problems very easily and with accuracy such as health issues, marketing, traffic issues,
+                                etc.</li>
+                            <!-- <li></li> -->
+                            <li>With the help of AI, you can create your personal virtual Assistant, such as Cortana,
+                                Google Assistant, Siri, etc.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- Pointers + image (2) -->
+            <div class="row section2-content2">
+                <div class="col-md-9">
+                    <p>
+                        <ul>
+                            <li>With the help of AI, you can build such Robots which can work in an environment where
+                                survival of humans can be at risk.</li>
+                            <li>AI opens a path for other new technologies, new devices, and new Opportunities.</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <img src="assets/img/why ai img 2.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- AI is everywhere -->
+    <section id="section3" class="section3">
+        <div class="container-fluid">
+            <p class="more_fontsize">Why I believe AI is going to change the world in 2050 and beyond.</p>
+            <h1>AI is everywhere</h1>
+            <p>Ever asked Alexa for the morning weather report, or passed through a public space that uses facial
+                recognition technology, or paid for something using your credit card, or bought a product recommended to
+                you by Amazon, or browsed potential love matches on a dating app? Of course, you have. Most of us have
+                done one or all of these things, probably in the last week. Probably in the last 24 hours.<br><br>And,
+                you guessed it, all of these everyday processes are underpinned by AI and data. AI allows your credit
+                card company to determine – in the blink of an eye – that your latest transaction fits your spending
+                pattern and isn’t fraudulent. Mastercard, for example, uses AI algorithms to assess the 75 billion
+                transactions a year processed on its network. So, to put it bluntly, AI is already deeply embedded in
+                your everyday life, and it’s not going anywhere.</p>
+        </div>
+    </section>
+
+
+    <!-- Types of AI -->
+    <section id="section4" class="section6 no-margin-section6">
+        <div class="container-fluid">
+            <div class="heading">
+                <h1>Types of Artificial Intelligence</h1>
+
+                <img src="assets/img/types of ai img.png" alt="">
+
+                <p class="sub-text">Artificial Intelligence can be divided in various types, there are mainly two types of main categorization which are based on capabilities and based on functionally of AI. Following are the types of AI :-</p>
+                <p class="topic">Artificial Intelligence Type-1 : <strong>Based on Capabilities</strong></p>
+            </div>
+
+        </div>
+        
+        <div class="container">
+            <div class="container ai-type-1-accordian">
+                <div id="accordion">
+                    <h3>Weak AI or Narrow AI</h3>
+                    <div>
+                    <p>Narrow AI is a type of AI which is able to perform a dedicated task with intelligence.The most common and currently available AI is Narrow AI in the world of Artificial Intelligence.<br><br>Narrow AI cannot perform beyond its field or limitations, as it is only trained for one specific task. Hence it is also termed as weak AI. Narrow AI can fail in unpredictable ways if it goes beyond its limits.<br><br>Apple Siriis a good example of Narrow AI, but it operates with a limited pre-defined range of functions.<br><br>IBM's Watson supercomputer also comes under Narrow AI, as it uses an Expert system approach combined with Machine learning and natural language processing.<br><br>Some Examples of Narrow AI are playing chess, purchasing suggestions on e-commerce site, self-driving cars, speech recognition, and image recognition.</p>
+                    </div>
+
+                    <h3>General AI</h3>
+                    <div>
+                    <p>General AI is a type of intelligence which could perform any intellectual task with efficiency like a human.<br><br>The idea behind the general AI to make such a system which could be smarter and think like a human by its own.<br><br>Currently, there is no such system exist which could come under general AI and can perform any task as perfect as a human.<br><br>The worldwide researchers are now focused on developing machines with General AI.<br><br>As systems with general AI are still under research, and it will take lots of efforts and time to develop such systems.</p>
+                    </div>
+
+                    <h3>Super AI</h3>
+                    <div>
+                    <p>Super AI is a level of Intelligence of Systems at which machines could surpass human intelligence, and can perform any task better than human with cognitive properties. It is an outcome of general AI.<br><br>Some key characteristics of strong AI include capability include the ability to think, to reason,solve the puzzle, make judgments, plan, learn, and communicate by its own.<br><br>Super AI is still a hypothetical concept of Artificial Intelligence. Development of such systems in real is still world changing task.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="section6-center-img">
+            <img src="assets/img/types of ai img.png" alt="">
+        </div>
+
+        <div class="container-fluid">
+            <div class="heading">
+                <p class="topic topic-margin">Artificial Intelligence Type-2: <strong>Based on functionality</strong></p>
+            </div>
+        </div>
+            <div class="container">
+            <div class=" ai-type-1-accordian">
+                <div id="accordion-2">
+                    <h3>Reactive Machines</h3>
+                    <div>
+                        <p>Purely reactive machines are the most basic types of Artificial Intelligence.<br><br>Such AI systems do not store memories or past experiences for future actions.<br><br>These machines only focus on current scenarios and react on it as per possible best action.<br><br>IBM's Deep Blue system is an example of reactive machines.<br><br>Google's AlphaGo is also an example of reactive machines.</p>
+                    </div>
+
+                    <h3>Limited Memory</h3>
+                    <div>
+                        <p>Limited memory machines can store past experiences or some data for a short period of time.<br><br>These machines can use stored data for a limited time period only.<br><br>Self-driving cars are one of the best examples of Limited Memory systems. These cars can store recent speed of nearby cars, the distance of other cars, speed limit, and other information to navigate the road.</p>
+                    </div>
+
+                    <h3>Theory of Mind</h3>
+                    <div>
+                        <p>Theory of Mind AI should understand the human emotions, people, beliefs, and be able to interact socially like humans.<br><br>This type of AI machines are still not developed, but researchers are making lots of efforts and improvement for developing such AI machines.</p>
+                    </div>
+
+                    <h3>Self-Awareness</h3>
+                    <div>
+                        <p>Self-awareness AI is the future of Artificial Intelligence. These machines will be super intelligent, and will have their own consciousness, sentiments, and self-awareness.<br><br>These machines will be smarter than human mind.<br><br>Self-Awareness AI does not exist in reality still and it is a hypothetical concept.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Goals of AI -->
+    <section id="section5" class="section4">
+        <div class="container-fluid">
+            <h1>Goals of Artificial Intelligence</h1>
+            <img src="assets/img/goals of ai img 1.png" alt="">
+
+        </div>
+    </section>
+
+
+    <section class="section5">
+        <div class="container-fluid">
+            Following are the main goals of Artificial Intelligence:
+            <ol>
+                <li>Replicate human intelligence</li>
+                <li>Solve Knowledge-intensive tasks</li>
+                <li>An intelligent connection of perception and action</li>
+                <li>
+                    Building a machine which can perform tasks that requires human intelligence such as:
+                    <ul>
+                        <li>Proving a theorem</li>
+                        <li>Playing chess</li>
+                        <li>Plan some surgical operation</li>
+                        <li>Driving a car in traffic</li>
+                    </ul>
+                </li>
+                <li>Creating some system which can exhibit intelligent behavior, learn new things by itself,
+                    demonstrate, explain, and can advise to its user.</li>
+            </ol>
+        </div>
+    </section>
+
+
+    <!-- Advantages -->
+    <section id="section6" class="section6">
+        <div class="container-fluid">
+            <div class="heading">
+                <h1>Advantages of Artificial Intelligence</h1>
+
+                <img src="assets/img/advantages of ai img 1.png" alt="">
+
+                <p class="topic">Following are some main advantages of Artificial Intelligence :-</p>
+            </div>
+            
+
+            <div class="container ai-type-1-accordian">
+                <div id="accordion-3">
+                    <h3>High Accuracy with less errors</h3>
+                    <div>
+                        <p>AI machines or systems are prone to less errors and high accuracy as it takes decisions as per pre-experience or information.</p>
+                    </div>
+
+                    <h3>High-Speed</h3>
+                    <div>
+                        <p>AI systems can be of very high-speed and fast-decision making, because of that AI systems can beat a chess champion in the Chess game.</p>
+                    </div>
+
+                    <h3>High reliability</h3>
+                    <div>
+                        <p>AI machines are highly reliable and can perform the same action multiple times with high accuracy.</p>
+                    </div>
+
+                    <h3>Useful for risky areas</h3>
+                    <div>
+                        <p>AI machines can be helpful in situations such as defusing a bomb, exploring the ocean floor, where to employ a human can be risky.</p>
+                    </div>
+
+                    <h3>Digital Assistant</h3>
+                    <div>
+                        <p>AI can be very useful to provide digital assistant to the users such as AI technology is currently used by various E-commerce websites to show the products as per customer requirement.</p>
+                    </div>
+
+                    <h3>Useful as a public utility</h3>
+                    <div>
+                        <p>AI can be very useful for public utilities such as a self-driving car which can make our journey safer and hassle-free, facial recognition for security purpose, Natural language processing to communicate with the human in human-language, etc.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Disadvantages -->
+    <section id="section7" class="section6 m-0 extra_section6">
+        <div class="container-fluid">
+            <div class="heading">
+                <h1>Disadvantages of Artificial Intelligence</h1>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-9">
+                    <p class="disadvantage_text">Every technology has some disadvantages, and the same goes for Artificial intelligence. Being so advantageous technology still, it has some disadvantages which we need to keep in our mind while creating an AI system.<br><br><label>Following are the disadvantages of AI :</label></p>
+                </div>
+
+                <div class="col-md-3">
+                    <img class="disadvantage_img" src="assets/img/human vs AI.png" alt="">
+                </div>
+            </div>
+
+            <div class="container ai-type-1-accordian margin-less-accordian">
+                <div id="accordion-4">
+                    <h3>High Cost</h3>
+                    <div>
+                        <p>The hardware and software requirement of AI is very costly as it requires lots of maintenance to meet current world requirements.</p>
+                    </div>
+
+                    <h3>Can't think out of the box</h3>
+                    <div>
+                        <p>Even we are making smarter machines with AI, but still they cannot work out of the box, as the robot will only do that work for which they are trained, or programmed.</p>
+                    </div>
+
+                    <h3>No feelings and emotions</h3>
+                    <div>
+                        <p>AI machines can be an outstanding performer, but still it does not have the feeling so it cannot make any kind of emotional attachment with human, and may sometime be harmful for users if the proper care is not taken.</p>
+                    </div>
+
+                    <h3>Increase dependency on machines</h3>
+                    <div>
+                        <p>With the increment of technology, people are getting more dependent on devices and hence they are losing their mental capabilities.</p>
+                    </div>
+
+                    <h3>No Original Creativity</h3>
+                    <div>
+                        <p>As humans are so creative and can imagine some new ideas but still AI machines cannot beat this power of human intelligence and cannot be creative and imaginative.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- History of AI -->
+    <section id="section8" class="section7">
+        <h1>History of Artificial Intelligence</h1>
+
+        <div class="row section7-row">
+            <div class="col-md-6">
+                <button>
+                    <a href="https://youtu.be/koUETWyK8Mo" target="_blank">
+                        <img src="assets/img/play button.png" alt="">
+                    </a>
+                </button>
+                <img class="small-video-img" src="assets/img/history of ai video img 2.png" alt="">
+            </div>
+                
+            <div class="col-md-6">
+
+                <button>
+                    <a href="https://youtu.be/oTxtFhvmo-E" target="_blank">
+                        <img src="assets/img/play button.png" alt="">
+                    </a>
+                </button>
+
+                <img src="assets/img/history of ai video img.jpg" alt="">
+            </div>
+
+            
+        </div>
+
+        <div class="video-text margin-less-text-video">
+            <p class="video-text-content">Timeline of Technology Innovation</p>
+            <p class="video-text-soure_video">Source :- Quick Support (Youtube)</p>
+        </div>
+
+        <img class="history-map" src="assets/img/history of ai img.png" alt="">
+
+        <div class="history-gif-container">
+            <img class="history-gif" src="assets/img/history.gif" alt="">
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <p>Designed & Developed by Manit & Dev (Sun Valley International School, Vaishali) All Rights reserved. <span><img src="https://img.icons8.com/material-outlined/24/000000/copyright.png"/></span> 2021</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+          $( "#accordion" ).accordion({
+            collapsible: true
+          });
+          $( "#accordion-2" ).accordion({
+            collapsible: true
+          });
+          $( "#accordion-3" ).accordion({
+            collapsible: true
+          });
+          $( "#accordion-4" ).accordion({
+            collapsible: true
+          });
+        } );
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper2 = new Swiper(".menu_scroll", {
+            cssMode: true,
+            pauseOnMouseEnter: true,
+            disableOnInteraction: false,
+            loop: true,
+            autoplay: {
+                delay: 1500,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+      </script>
+
+        <script>
+            $(".text_menu_scroll").on('mouseover', function(){
+                $('.menu_scroll_slide img').css({"opacity":"1"})
+            })
+
+            $(".text_menu_scroll").on('mouseout', function(){
+                $('.menu_scroll_slide img').css({"opacity":"0.5"})
+            })
+
+            $(".menu_scroll_slide img").on('mouseover', function(){
+                $('.menu_scroll_slide img').css({"opacity":"1"})
+            })
+
+            $(".menu_scroll_slide img").on('mouseout', function(){
+                $('.menu_scroll_slide img').css({"opacity":"0.5"})
+            })
+        </script>
+    
+</body>
+
+</html>

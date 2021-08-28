@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <script src="https://use.fontawesome.com/4dd56e3fe4.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" -->
+      <!-- rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <link rel="stylesheet" href="assets/wowjs/animate.css">
+    <!-- <link rel="stylesheet" href="assets/wowjs/wow.js"> -->
+</head>
+
+<body>
+    <!-- Header section -->
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div data-aos="fade-down" class="col-md-3 col-3 col-sm-4 ">
+                    <div class="menu">
+                        <img class="logo" src="assets/img/logo.png" alt="">
+                        <span><img class="menu-img" src="assets/img/menu.png"/></span>
+                    </div>
+                </div>
+
+                <div class="col-md-3  d-none d-md-block"></div>
+
+
+                <div class="navigation col-md-6 col-9 co-sm-9">
+                    <div data-aos="fade-right">
+                        <a href="index.html"><button><img src="https://img.icons8.com/material-rounded/24/000000/home.png"/></button></a>
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <a href="https://www.facebook.com/" target="_blank"><button><img src="https://img.icons8.com/ios-glyphs/30/000000/facebook.png"/></button></a>
+                    </div>
+
+                    <div data-aos="fade-down">
+                        <a href="https://twitter.com/" target="_blank"><button><img src="https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png"/></button></a>
+                    </div>
+
+                    <div data-aos="fade-left">
+                        <a href="contact.html"><button id="contact_btn"><img src="https://img.icons8.com/material-rounded/24/000000/mail.png"/></button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="fixed-header">
+            <p class="close-fixed-header"><span>&#128473;</span></p>
+            
+            <div class="container-fluid">
+                <div class="swiper-container menu_scroll">
+                    <div class="swiper-wrapper">
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_1.png" alt="">
+                            <a class="text_menu_scroll" href="AI_Past_Present_Future.html">Journey&nbsp;&nbsp;&nbsp;of&nbsp;&nbsp;&nbsp;Technology</a>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_2.png" alt="">
+                            <a class="text_menu_scroll" href="AI_details.html">Artificial&nbsp;&nbsp;&nbsp;Intelligence</a><br>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_3.png" alt="">
+                            <a class="text_menu_scroll" href="education.html">Future&nbsp;&nbsp;&nbsp;in&nbsp;&nbsp;&nbsp;Education</a>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_4.png" alt="">
+                            <a class="text_menu_scroll" href="blockchain.html">Blockchain&nbsp;&nbsp;&nbsp;Technology</a>
+                        </div>
+
+                        <div class="menu_scroll_slide swiper-slide">
+                            <img src="assets/img/home_card_5.png" alt="">
+                            <a class="text_menu_scroll" href="nanotech.html">Nano&nbsp;&nbsp;&nbsp;Technology</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <!-- <div class="menu_topics">
+                </div> -->
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div class="swiper-slide slide-contact">
+        <div class="container-fluid slide-contact-cont">
+            <section class="get-in-touch">
+               <h1 class="title">Feedback</h1>
+
+               <form class="contact-form row">
+
+                  <div class="form-field col-lg-5">
+                     <input id="name" class="input-text js-input" type="text" required>
+                     <label class="label" for="name">First &nbsp;Name</label>
+                  </div>
+
+                  <div class="form-field col-lg-5 ">
+                     <input id="email" class="input-text js-input" type="email" required>
+                     <label class="label" for="email">Last Name</label>
+                  </div>
+
+                  <div class="form-field col-lg-5 ">
+                     <input id="company" class="input-text js-input" type="text" required>
+                     <label class="label" for="company">Email</label>
+                  </div>
+
+                   <div class="form-field col-lg-5 ">
+                     <input id="phone" class="input-text js-input" type="text" required>
+                     <label class="label" for="phone">Mobile Number</label>
+                  </div>
+
+                  <div class="form-field col-lg-10">
+                     <input id="message" class="input-text js-input" type="text" required>
+                     <label class="label" for="message">Message</label>
+                  </div>
+
+                  <div class="form-field col-lg-10 contact_btn_container">
+                     <input class="submit-btn" type="submit" value="Submit">
+                  </div>
+               </form>
+
+            </section>
+
+            
+        </div>       
+        
+        
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <p>Designed & Developed by Manit & Dev (Sun Valley International School, Vaishali) All Rights reserved. 2021</p>
+                </div>
+            </div>
+        </div>
+
+
+    
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/0675ac6ac4.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+        });
+    </script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <script>
+        var swiper2 = new Swiper(".menu_scroll", {
+            cssMode: true,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+      </script>
+
+    <script>
+        $(".text_menu_scroll").on('mouseover', function(){
+            $('.menu_scroll_slide img').css({"opacity":"1"})
+        })
+
+        $(".text_menu_scroll").on('mouseout', function(){
+            $('.menu_scroll_slide img').css({"opacity":"0.5"})
+        })
+
+        $(".menu_scroll_slide img").on('mouseover', function(){
+            $('.menu_scroll_slide img').css({"opacity":"1"})
+        })
+
+        $(".menu_scroll_slide img").on('mouseout', function(){
+            $('.menu_scroll_slide img').css({"opacity":"0.5"})
+        })
+    </script>
+    
+</body>
+
+</html>
