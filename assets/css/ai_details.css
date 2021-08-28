@@ -760,7 +760,8 @@ span {
 }
 
 .section7-row img{
-    width: 70%;
+    width: 350px;
+    height: 200px;
 	border: 7px solid #ffffffc2;
 }
 
@@ -783,6 +784,8 @@ span {
 }
 
 .section7-row button img{
+	width: 20px !important;
+	height: 20px !important;
     margin-left: 5px;
 	border: none !important;
 }
