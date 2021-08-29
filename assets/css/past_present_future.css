@@ -95,9 +95,9 @@
 .fixed-button-2 {
 	position: fixed;
 	left: 0;
-	top: 45%;
+	top: 35%;
 	transform: translateY(-50%);
-	z-index: 999;
+	z-index: 9999;
 	color: #ffffff !important;
 }
 
@@ -123,6 +123,10 @@
 	content: 'Play' !important;
 	src: format('https://quizizz.com/join/quiz/6128e81a91e999001d4fda0f/start?studentShare=true') !important;
 	font-size: 20px;
+}
+.swiper-button-next, .swiper-button-prev{
+	color: #000000;
+	font-weight: bold;
 }
 
 .menu_scroll_slide a:hover+.menu_scroll_slide img {
@@ -555,4 +559,49 @@ body{
 
 p{
 	text-align: justify !important;
+}
+
+@media (max-width: 767px) {
+    .history-start-gif h1{
+        font-size: 40px;
+    margin: 0;
+    margin-top: 140px;
+    }
+    .history-start-gif img{
+        display: none;
+    }
+    .history-intro-heading h1{
+        font-size: 29px;
+    }
+    .navigation button {
+		width: 40px;
+		height: 40px;
+	}
+
+	.menu_topics {
+		position: fixed;
+		top: 10%;
+		left: 30%;
+		z-index: 99;
+		color: #ffffff;
+		font-size: 40px;
+		font-weight: bold;
+	}
+
+	.menu_topics a {
+		text-align: center !important;
+		color: #ffffff;
+		text-decoration: none;
+	}
+
+	.menu_topics a:hover {
+		color: lawngreen !important;
+	}
+
+	.menu_scroll_slide img {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		margin-top: 130px;
+	}
 }

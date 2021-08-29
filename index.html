@@ -19,6 +19,44 @@
     <!-- <link rel="stylesheet" href="assets/wowjs/wow.js"> -->
 </head>
 
+<style>
+    .user-input-wrp {
+        position: relative;
+        width: 100%;
+    }
+    .user-input-wrp .inputText{
+        width: 100%;
+        outline: none;
+        border:none;
+        border-bottom: 1px solid #777;
+         box-shadow: none !important;
+         padding: 4px 10px;
+        border-radius: 4px;
+    }
+    .user-input-wrp .inputText:focus{
+        border-color: blue;
+        border-width: medium medium 2px;
+    }
+    .user-input-wrp .floating-label:focus{
+        color: #fff;
+    }
+    .user-input-wrp .floating-label {
+        position: absolute;
+        pointer-events: none;
+        top: 27px;
+        left: 10px;
+        font-size: 15px;
+        transition: 0.2s ease all;
+    }
+    .user-input-wrp input:focus ~ .floating-label,
+    .user-input-wrp input:not(:focus):valid ~ .floating-label{
+        top: 0px;
+        left: 10px;
+        font-size: 13px;
+        opacity: 1;
+        color: #fff;    
+    }</style>
+
 <body style="overflow: hidden;">
     <!-- Header section -->
     <header class="header">
@@ -399,41 +437,66 @@
             <div id="contact_slide" class="swiper-slide slide-contact">
                 <div class="container-fluid">
                     <section class="get-in-touch">
-                       <h1 class="title">Feedback</h1>
-
-                       <form class="contact-form row">
-
-                          <div class="form-field col-lg-5">
-                             <input id="name" class="input-text js-input" type="text" required>
-                             <label class="label" for="name">First &nbsp;Name</label>
-                          </div>
-
-                          <div class="form-field col-lg-5 ">
-                             <input id="email" class="input-text js-input" type="text" required>
-                             <label class="label" for="email">Last Name</label>
-                          </div>
-
-                          <div class="form-field col-lg-5 ">
-                             <input id="company" class="input-text js-input" type="text" required>
-                             <label class="label" for="company">Email</label>
-                          </div>
-
+                        <h1 class="title">Feedback</h1>
+         
+                        <form class="contact-form row">
+         
+                           <div class="form-field col-lg-5">
+                              <!-- <input id="name" class="input-text js-input" type="text" required>
+                              <label class="label" for="name">First &nbsp;Name</label> -->
+                              <div class="user-input-wrp">
+                                 <br/>
+                                 <input type="text" class="inputText" required/>
+                                 <span class="floating-label">First &nbsp;Name</span>
+                               </div>
+                           </div>
+         
                            <div class="form-field col-lg-5 ">
-                             <input id="phone" class="input-text js-input" type="number" required>
-                             <label class="label" for="phone">Mobile Number</label>
-                          </div>
-
-                          <div class="form-field col-lg-10">
-                             <input id="message" class="input-text js-input" type="text" required>
-                             <label class="label" for="message">Message</label>
-                          </div>
-
-                          <div class="form-field col-lg-10 contact_btn_container">
-                             <input class="submit-btn" type="submit" value="Submit">
-                          </div>
-                       </form>
-
-                    </section>
+                              <!-- <input id="email" class="input-text js-input" type="email" required>
+                              <label class="label" for="email">Last Name</label> -->
+                              <div class="user-input-wrp">
+                                 <br/>
+                                 <input type="text" class="inputText" required/>
+                                 <span class="floating-label">Last Name</span>
+                               </div>
+                           </div>
+         
+                           <div class="form-field col-lg-5 ">
+                              <!-- <input id="company" class="input-text js-input" type="text" required>
+                              <label class="label" for="company">Email</label> -->
+                              <div class="user-input-wrp">
+                                 <br/>
+                                 <input type="text" class="inputText" required/>
+                                 <span class="floating-label">Email</span>
+                               </div>
+                           </div>
+         
+                            <div class="form-field col-lg-5 ">
+                              <!-- <input id="phone" class="input-text js-input" type="text" required>
+                              <label class="label" for="phone">Mobile Number</label> -->
+                              <div class="user-input-wrp">
+                                 <br/>
+                                 <input type="number" class="inputText" required/>
+                                 <span class="floating-label">Mobile Number</span>
+                               </div>
+                           </div>
+         
+                           <div class="form-field col-lg-10">
+                              <!-- <input id="message" class="input-text js-input" type="text" required>
+                              <label class="label" for="message">Message</label> -->
+                              <div class="user-input-wrp">
+                                 <br/>
+                                 <input type="text" class="inputText " required/>
+                                 <span class="floating-label">Message</span>
+                               </div>
+                           </div>
+         
+                           <div class="form-field col-lg-10 contact_btn_container">
+                              <input class="submit-btn" type="submit" value="Submit">
+                           </div>
+                        </form>
+         
+                     </section>
 
                     <!-- Footer -->
                     <div class="footer footer-margin">
@@ -510,7 +573,7 @@
             disableOnInteraction: false,
             loop: true,
             autoplay: {
-                delay: 2000,
+                delay: 5000,
             },
             navigation: {
                 nextEl: ".swiper-button-next",
@@ -522,7 +585,8 @@
             mousewheel: true,
             keyboard: true,
         });
-      </script>
+    </script>
+
     <!-- Animation code -->
     <script>
         $(".swiper-slide").on("wheel", function () {

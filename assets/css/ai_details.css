@@ -654,8 +654,8 @@ span {
 
 .fixed-button {
 	position: fixed;
-	left: 0;
-	top: 30%;
+	/* left: -5px; */
+	top: 35%;
 	transform: translateY(-50%);
 	z-index: 999;
 }
@@ -673,12 +673,14 @@ span {
 	padding-left: 10px;
 }
 
+
+
 .fixed-button-2 {
 	position: fixed;
 	left: 0;
 	top: 60%;
 	transform: translateY(-50%);
-	z-index: 99999;
+	z-index: 999;
 	color: #ffffff !important;
 }
 
@@ -704,6 +706,15 @@ span {
 	content: 'Play' !important;
 	src: format('https://quizizz.com/join/quiz/6128e81a91e999001d4fda0f/start?studentShare=true') !important;
 	font-size: 20px;
+}
+.swiper-button-next, .swiper-button-prev{
+	color: #000000;
+	font-weight: bold;
+}
+
+.top-less-fixed-button-menu{
+	top: 30% !important;
+	z-index: 9999;
 }
 
 .section1 .container-fluid {

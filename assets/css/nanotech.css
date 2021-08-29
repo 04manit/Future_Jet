@@ -768,9 +768,9 @@ p {
 .fixed-button-2 {
 	position: fixed;
 	left: 0;
-	top: 45%;
+	top: 35%;
 	transform: translateY(-50%);
-	z-index: 999;
+	z-index: 9999;
 	color: #ffffff !important;
 }
 
@@ -796,4 +796,8 @@ p {
 	content: 'Play' !important;
 	src: format('https://quizizz.com/join/quiz/6128e81a91e999001d4fda0f/start?studentShare=true') !important;
 	font-size: 20px;
+}
+.swiper-button-next, .swiper-button-prev{
+	color: #000000 !important;
+	font-weight: bold !important;
 }

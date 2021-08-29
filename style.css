@@ -106,7 +106,7 @@ body {
 .fixed-button-2 {
 	position: fixed;
 	left: 0;
-	top: 60%;
+	top: 35%;
 	transform: translateY(-50%);
 	z-index: 999;
 	color: #ffffff !important;
@@ -134,6 +134,10 @@ body {
 	content: 'Play' !important;
 	src: format('https://quizizz.com/join/quiz/6128e81a91e999001d4fda0f/start?studentShare=true') !important;
 	font-size: 20px;
+}
+.swiper-button-next, .swiper-button-prev{
+	color: #000000;
+	font-weight: bold;
 }
 
 .menu_scroll_slide {
@@ -1046,7 +1050,7 @@ span {
 	}
 
 	.left-section-row h1 {
-		font-size: 36px;
+		font-size: 32px;
 	}
 
 	.section5_text {
@@ -1105,7 +1109,7 @@ span {
 	}
 
 	.contact-form .submit-btn {
-		margin-left: 50px;
+		margin-top: 1.5rem;
 	}
 
 	.section4_future .container {
