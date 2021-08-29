@@ -1132,4 +1132,8 @@ span {
 		width: 40px;
 		height: 40px;
 	}
+
+	.section5-container-2 img{
+		max-width: 100%;
+	}
 }

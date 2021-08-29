@@ -19,6 +19,9 @@ body {
 	padding: 0 8px 10px 10px;
 	z-index: 99;
 }
+.row{
+	margin-right: 0;
+}
 
 .menu {
 	top: 0;
@@ -904,6 +907,7 @@ span {
 		font-size: 20px;
 		text-align: center !important;
 		width: 100%;
+		margin-left: 0;
 	}
 
 	.section1-content5-row p {
@@ -1064,6 +1068,7 @@ span {
 
 	.section7-row img{
 		margin-top: 20px;
+		max-width: 100%;
 	}
 
 	.section7-row button img{

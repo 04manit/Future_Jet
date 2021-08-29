@@ -562,8 +562,11 @@ p{
 }
 
 @media (max-width: 767px) {
+    .menu_scroll_slide a{
+        font-size: 20px;
+    }
     .history-start-gif h1{
-        font-size: 40px;
+        font-size: 32px;
     margin: 0;
     margin-top: 140px;
     }
@@ -604,4 +607,27 @@ p{
 		margin: 0;
 		margin-top: 130px;
 	}
+
+    .section5-container-2 img{
+		max-width: 100%;
+        height: auto;
+	}
+    .section5-container-1 h1 {
+        color: #00D1E5;
+        font-weight: bold;
+        font-size: 38px;
+    } 
+    .section7-row button {
+        border-radius: 50%;
+        background-color: #00D1E5;
+        width: 37px;
+        height: 37px;
+        margin-right: -31px;
+        margin-top: 5%;
+        z-index: 999;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
