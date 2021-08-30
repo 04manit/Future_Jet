@@ -984,6 +984,10 @@ span {
 	display: none;
 }
 
+.ipad-image {
+	display: none;
+}
+
 .mobile-section3 {
 	display: none;
 }
@@ -1011,7 +1015,7 @@ span {
 		margin-top: 20px;
 	}
 	.fixed-button-2{
-		top: 20%;
+		top: 30% !important;
 	}
 	.changeSection_nano_right{
 		display: none;
@@ -1041,6 +1045,14 @@ span {
 	}
 
 	.mobile-image>img {
+		opacity: 0;
+	}
+
+	.ipad-image{
+		display: none !important;
+	}
+
+	.ipad-image > img{
 		opacity: 0;
 	}
 
@@ -1174,7 +1186,6 @@ span {
 	.section5-container-2 img{
 		max-width: 100%;
 	}
-<<<<<<< HEAD
 	.user-input-wrp{
 		height: 40px;
 	}
@@ -1202,6 +1213,21 @@ span {
 		width: 60%;
 		height: auto;
 	}
-=======
->>>>>>> 485cf7cb2d2d2152311114411caf19fe81269823
+	.ipad-image {
+		display: block;
+		background-image: url(../../assets/img/page1_ipad.png);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.ipad-image>img {
+		opacity: 0;
+	}
+
+	.section1{
+		display: none;
+	}
+	.fixed-button-2{
+		top: 30% !important;
+	}
 }
