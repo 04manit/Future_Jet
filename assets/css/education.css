@@ -645,11 +645,31 @@ span {
 p{
 	text-align: justify !important;
 }
+.computer-gif{
+    width: 48%;
+    height: max-content;
+    position: relative;
+    margin: 0 auto;
+}
+.section-computer-gif{
+    position: absolute;
+    top: 23px;
+    left: 87px;
+    position: absolute;
+    margin: 0;
+}
 /* Responsive css */
 @media (max-width:767px) {
     h1 {
         font-size: 25px !important;
     }
+    .menu{
+		width: 65px;
+		height: 70px;
+	}
+	.menu:hover{
+		height: 80px;
+	}
 
     .education_header h1 {
         font-size: 2rem;
@@ -783,7 +803,7 @@ p{
     }
 
     .biblo li {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .footer p {
@@ -826,7 +846,43 @@ p{
         margin: 0;
         width: 150px;
     }
-
+    
+	.menu{
+		width: 65px;
+		height: 70px;
+	}
+    .menu > img{
+        display: none;
+    }
+	.menu:hover{
+		height: 80px;
+	}
+    .fixed-button-2{
+		top: 30%;
+	}
+    .menu_scroll_slide a{
+        font-size: 22px;
+    }
+    .menu_scroll{
+        height: 100%;
+    }
+    .menu_scroll_slide img{
+        margin: 0;
+    }
+    .fixed-header > .container-fluid{
+        height: 100%;
+    }
+    .menu_scroll_slide img{
+        width: 100%;
+        height: max-content;
+    }
+    .section6-relatedPost img{
+        width: 100%;
+    }
+    .section6-relatedPost button{
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -844,12 +900,29 @@ p{
     }
 
     .section-computer-gif {
-        width: 54%;
-        height: 62%;
+        width: 69%;
         margin: 0;
         padding: 0;
         position: absolute;
-        top: 25px;
+        top: 6%;
+        left: 15%;
+        z-index: 999;
+    }
+    .section3-subheading-cont{
+        padding: 0px 10px
+    }
+    .section4-computer-cont{
+        height: 150px;
+    }
+    .biblo div{
+        width: 96% ;
+        margin: 0 auto;
+    }
+    .section5-heading h1{
+        font-size: 24px !important;
+    }
+    .computer-gif{
+        width: 68%;
     }
 
     .section8 {
@@ -895,7 +968,8 @@ p{
     }
 
     .biblo div {
-        width: 50%;
+        width: 96%;
+        margin: 0 auto;
     }
 
     .footer p {
@@ -904,7 +978,7 @@ p{
 
     .education_header img {
         margin: 0;
-        width: 250px;
+        max-width: 58%;
         margin-bottom: 20px;
         margin-left: 40%;
     }
@@ -917,5 +991,18 @@ p{
     .section2 p{
         font-size: 18px;
         margin-top: 10px;
+    }
+    .section1-letsstart{
+        padding: 10px 15px;
+    }
+    .section4{
+        margin-bottom: 30%;
+    }
+    .section3-interactive p{
+        font-size: 12px;
+    }
+    .menu_scroll_slide img{
+        width: 80%;
+        height: auto;
     }
 }

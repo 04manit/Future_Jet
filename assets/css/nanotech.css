@@ -8,6 +8,7 @@ body {
     background-color: rgb(36, 42, 74);
     color: #FFFfff;
     font-family: 'Libre Baskerville', serif;
+    overflow-x: hidden;
 }
 
 section {
@@ -629,18 +630,40 @@ p {
 }
 
 @media (max-width:767px) {
-    body {
-        width: 105vh !important;
+    h1{
+        font-size: 24px  !important;
+        padding: 0;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .card{
+        width: 100%;
+        margin: 15px 0;
+        padding: 15px 15px;
+        height: max-content;
+    }
+    #nano_3_content{
+        width: 100%;
+    }
+    .app_card{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 10px 15px;
     }
 
     .img_div {
-        width: 102vh;
+        width: 100%;
     }
-
     .heading-row h1 {
-        padding-top: 70px;
+        padding-top: 110px;
         padding-right: 0;
         padding-left: 80px;
+        text-align: center;
+        font-size: 36px !important;
+        margin: 24px auto;
+        padding-left: 0;
     }
 
     .subheading-row {
@@ -729,8 +752,91 @@ p {
         width: 100%;
         margin: 0;
     }
+    .menu{
+		width: 65px;
+		height: 70px;
+	}
+	.menu:hover{
+		height: 80px;
+	}
+    .fixed-button-2{
+		top: 20%;
+	}
+    .menu{
+		width: 65px;
+		height: 70px;
+	}
+    .menu > img{
+        display: none;
+    }
+	.menu:hover{
+		height: 80px;
+	}
+    .fixed-button-2{
+		top: 20%;
+	}
+    .menu_scroll_slide a{
+        font-size: 22px !important;
+    }
+    .menu_scroll{
+        height: 100%;
+    }
+    .menu_scroll_slide img{
+        margin: 0;
+    }
+    .fixed-header > .container-fluid{
+        height: 100%;
+    }
+    .menu_scroll_slide img{
+        width: 100% !important;
+        height: max-content !important;
+    }
+    .fixed-button-2{
+        top: 17% !important;
+    }
+    #nano1_img img{
+        display: none;
+    }
+    .wsm-100{
+        width: 100% !important;
+    }
+    .wsm-50{
+        width: 50% !important;
+    }
+    #nano4_video button{
+        width: 55px;
+        height: 55px;
+    }
+    .navigation button {
+		width: 40px;
+		height: 40px;
+	}
+    .fixed-button-2{
+        top: 35% !important;
+    }
+    #biblo li{
+        font-size: 12px;
+    }
+    .footer p{
+        font-size: 12px !important;
+    }
+    .menu_scroll_slide img{
+        width: 80%;
+        height: auto;
+    }
+}
 
-    
+@media (max-width: 1024px) {
+    #nano1_img{
+        display: none;
+    }
+    #biblo div{
+        width: 100%;
+    }
+    .menu_scroll_slide img{
+        width: 80% !important;
+        height: auto !important;
+    }
 }
 
 .menu_scroll_slide{

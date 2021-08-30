@@ -8,6 +8,7 @@
         background-color: rgb(36, 42, 74);
         color: #FFFfff;
         font-family: 'Poppins', serif !important;
+        overflow-x: hidden;
     }
 
     .outer-div {
@@ -56,7 +57,7 @@
     }
 
     .img_div img {
-        width: 1270px;
+        width: 100%;
         height: 100%;
         z-index: 999;
         /* margin-top: 70%; */
@@ -237,8 +238,8 @@
     }
 
     .app_icon {
-        width: 20%;
-        height: 40%;
+        width: 100px;
+        height: 100px;
         display: flex;
         align-items: center;
         background-color: rgb(255, 255, 255);
@@ -609,3 +610,119 @@
     p{
         text-align: justify !important;
     }
+
+    @media (max-width: 767px) {
+        .app_card{
+            display: block !important;
+        }
+        h1{
+            font-size: 26px !important;
+        }
+        .fixed-button-2{
+            top: 30% !important;
+        }
+        #biblo li{
+            font-size: 12px;
+        }
+        .navigation button {
+            width: 40px;
+            height: 40px;
+        }
+        .menu_scroll_slide img{
+            width: 80%;
+            height: auto;
+        }
+    }
+
+    @media (max-width:1024px){
+        .img_div img {
+            max-width: 100%;
+    height: auto;
+        }
+        #upper_sec img {
+            max-width: 100%;
+        }
+        #upper_sec {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .ctnr{
+            display: initial;
+        }
+        #app_ctnr{
+            display: initial;
+        }
+        .app_flexCtnr{
+            display: initial;
+        }
+        .app_card{
+            display: flex;
+            justify-content: center;
+            height: max-content !important;
+        }
+        h1{
+            font-size: 35px;
+        }
+        .card{
+            width: 93%;
+            height: auto;
+        }
+        .img_div{
+            height: auto;
+            margin-bottom: 2rem;
+        }
+        #bl1_video button{
+            width: 50px;
+            height: 50px;
+            margin-right: -28px;
+    margin-top: 12%;
+        }
+        #bl1_video button img{
+            max-width: 50%;
+        }
+        .menu{
+            width: 65px;
+            height: 70px;
+        }
+        .menu > img{
+            display: none;
+        }
+        .menu:hover{
+            height: 80px;
+        }
+        .fixed-button-2{
+            top: 20%;
+        }
+        .menu_scroll_slide a{
+            font-size: 22px;
+        }
+        .menu_scroll{
+            height: 100%;
+        }
+        .menu_scroll_slide img{
+            margin: 0;
+        }
+        .fixed-header > .container-fluid{
+            height: 100%;
+        }
+        .menu_scroll_slide img{
+            width: 100%;
+            height: max-content;
+        }
+        
+        #biblo div{
+            width: 100%;
+            padding: 10px;
+        }
+        .menu_scroll_slide img{
+            width: 80%;
+            height: auto;
+            margin-top: -50px;
+        }
+        .fixed-button-2{
+            top: 30% !important;
+        }
+    }
+    

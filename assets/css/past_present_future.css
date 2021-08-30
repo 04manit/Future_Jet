@@ -560,12 +560,45 @@ body{
 p{
 	text-align: justify !important;
 }
-
+@media (max-width: 1024px) {
+    .section5-container-2 img {
+        max-width: 100%;
+        height: auto;
+    }
+    .history-start-gif img{
+        height: 350px;
+    }
+    .section5-container-2 p{
+        font-size: 14px;
+    }
+    .menu_scroll_slide img{
+        width: 80%;
+        height: auto;
+    }
+}
 @media (max-width: 767px) {
     .history-start-gif h1{
-        font-size: 40px;
+        font-size: 32px;
     margin: 0;
     margin-top: 140px;
+    }
+    .section4{
+        padding: 20px 15px;
+    }
+    .section4 h1{
+        font-size: 24px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16;
+    }
+    .history-intro-heading p{
+        padding: 10px 15px;
+    }
+    .section4 p{
+        font-size: 16px;
     }
     .history-start-gif img{
         display: none;
@@ -604,4 +637,76 @@ p{
 		margin: 0;
 		margin-top: 130px;
 	}
+
+    .section5-container-2 img{
+		max-width: 100%;
+	}
+    .section5-container-1 h1 {
+        color: #00D1E5;
+        font-weight: bold;
+        font-size: 38px;
+    } 
+    .section7-row button {
+        border-radius: 50%;
+        background-color: #00D1E5;
+        width: 37px;
+        height: 37px;
+        margin-right: -31px;
+        margin-top: 5%;
+        z-index: 999;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section2-container-1{
+        padding: 0 15px 0 15px;
+    }
+    h1{
+        font-size: 24px !important;
+    }
+    p{
+        font-size: 16px !important;
+    }
+    .section2-container-3 p{
+        padding-left: 15px;
+    }
+    .section3, .section5{
+        padding: 20px 15px;
+    }
+    
+	.menu{
+		width: 65px;
+		height: 70px;
+	}
+    .menu > img{
+        display: none;
+    }
+	.menu:hover{
+		height: 80px;
+	}
+    .fixed-button-2{
+		top: 20%;
+	}
+    .menu_scroll_slide a{
+        font-size: 22px;
+    }
+    .menu_scroll{
+        height: 100%;
+    }
+    .menu_scroll_slide img{
+        margin: 0;
+    }
+    .fixed-header > .container-fluid{
+        height: 100%;
+    }
+    .history-start-gif div {   
+        height: 100%;
+    }
+    .history-start-gif h1{
+        margin-top: 0;
+    }
+    .section7-row img{
+        width: 80%;
+    }
 }
