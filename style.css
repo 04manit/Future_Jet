@@ -1174,6 +1174,7 @@ span {
 	.section5-container-2 img{
 		max-width: 100%;
 	}
+<<<<<<< HEAD
 	.user-input-wrp{
 		height: 40px;
 	}
@@ -1201,4 +1202,6 @@ span {
 		width: 60%;
 		height: auto;
 	}
+=======
+>>>>>>> 485cf7cb2d2d2152311114411caf19fe81269823
 }

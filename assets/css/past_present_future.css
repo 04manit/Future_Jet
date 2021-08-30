@@ -577,6 +577,9 @@ p{
     }
 }
 @media (max-width: 767px) {
+    .menu_scroll_slide a{
+        font-size: 20px;
+    }
     .history-start-gif h1{
         font-size: 32px;
     margin: 0;
@@ -640,6 +643,10 @@ p{
 
     .section5-container-2 img{
 		max-width: 100%;
+<<<<<<< HEAD
+=======
+        height: auto;
+>>>>>>> 485cf7cb2d2d2152311114411caf19fe81269823
 	}
     .section5-container-1 h1 {
         color: #00D1E5;
@@ -659,6 +666,7 @@ p{
         justify-content: center;
         align-items: center;
     }
+<<<<<<< HEAD
     .section2-container-1{
         padding: 0 15px 0 15px;
     }
@@ -709,4 +717,6 @@ p{
     .section7-row img{
         width: 80%;
     }
+=======
+>>>>>>> 485cf7cb2d2d2152311114411caf19fe81269823
 }

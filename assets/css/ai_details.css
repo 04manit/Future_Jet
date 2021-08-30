@@ -22,11 +22,15 @@ body {
 .row{
 	margin-right: 0;
 }
+<<<<<<< HEAD
 .video-btn{
 	position: absolute;
 	top: 20px;
 	left: -40px;
 }
+=======
+
+>>>>>>> 485cf7cb2d2d2152311114411caf19fe81269823
 .menu {
 	top: 0;
 	background-color: hsl(0, 0%, 100%);
